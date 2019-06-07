@@ -10,4 +10,4 @@ RUN chmod +x /usr/local/innokb/innokb_linux_debian_amd64
 
 EXPOSE 8083
 
-ENTRYPOINT ["/usr/local/innokb/innokb_linux_debian_amd64", "-daemon", "-silent", "-port 8083"]
+ENTRYPOINT ["/usr/local/innokb/innokb_linux_debian_amd64", "-port 8083"]
